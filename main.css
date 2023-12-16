@@ -119,7 +119,7 @@ body {
 .baloons img {
   display: inline-block;
   position: absolute;
-  width: 80px
+  width: 40%
 }
 
 .baloons img:nth-child(even) {
