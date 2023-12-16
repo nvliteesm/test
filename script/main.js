@@ -1,5 +1,5 @@
 // trigger to play music in the background with sweetalert
-window.addEventListener('load', () => {
+/*window.addEventListener('load', () => {
     Swal.fire({
         title: 'Do you want to play music in the background?',
         // text: "You won't be able to revert this!",
@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
             animationTimeline();
         }
     });
-});
+});*/
 
 
 // animation timeline
@@ -179,7 +179,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
         ".baloons img",
-        2.5, {
+        7.5, {
             opacity: 0.9,
             y: 1400,
         }, {
@@ -225,7 +225,7 @@ const animationTimeline = () => {
         }, {
             scale: 1,
             rotationY: 0,
-            color: "#ff69b4",
+            color: "#A020F0",
             ease: Expo.easeOut,
         },
         0.1,
